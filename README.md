@@ -47,4 +47,8 @@ python3 plot/plot_paper.py
 
 ## Citation
 
-TODO
+You can cite this paper from [the associated page](https://doi.org/10.1145/3822163.3827931)
+
+```
+# BibTex here
+```
