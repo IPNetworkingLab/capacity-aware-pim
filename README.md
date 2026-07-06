@@ -16,6 +16,19 @@ Building on these exposed capacities, we propose a capacity-aware path-selection
 Our results show that, by exposing multicast capacities, we can not only improve the join acceptance rate by up to 22%, but our solution also allows to reach a two times higher join rate without rejecting any join.
 By increasing the join acceptance rate, more concurrent multicast flows can coexist in networks.
 
+## Rerun our experiments
+
+To rerun our experiments, simply run `sim/all.sh`. This script will relaunch all our experiments, and save the results in dedicated csv files in the [results](./results/) directory.
+
+## Plotting the results
+
+Once simulations have been run, you can plot the results with the following commands:
+
+```bash
+python3 plot/plot_capacity.py
+python3 plot/plot_paper.py
+```
+
 ## Description of artifacts
 
 Our artifacts are organised as follows:
@@ -31,19 +44,6 @@ Our artifacts are organised as follows:
 - [`results`](./results/): directory containing all the CSV files produced by our simulations
 - [`data`](./data/): directory containing the topologies we used for the paper
 - [`figures`](./figures/): directory containing the raw figures we used in the paper
-
-## Rerun our experiments
-
-To rerun our experiments, simply run `sim/all.sh`. This script will relaunch all our experiments, and save the results in dedicated csv files in the [results](./results/) directory.
-
-## Plotting the results
-
-Once simulations have been run, you can plot the results with the following commands:
-
-```bash
-python3 plot/plot_capacity.py
-python3 plot/plot_paper.py
-```
 
 ## Citation
 
