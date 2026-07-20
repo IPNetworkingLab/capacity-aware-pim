@@ -49,6 +49,22 @@ Our artifacts are organised as follows:
 
 You can cite this paper from [the associated page](https://doi.org/10.1145/3822163.3827931)
 
-```
-# BibTex here
+```bibtex
+@inproceedings{10.1145/3822163.3827931,
+  author = {Doeraene, Anthony and Bonaventure, Olivier},
+  title = {Intradomain Multicast Routing for Modern Routers},
+  year = {2026},
+  isbn = {9798400728761},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3822163.3827931},
+  doi = {10.1145/3822163.3827931},
+  abstract = {IP multicast was designed in an era of software-based routers, when forwarding state lived in expandable RAM. Today, multicast relies on hardware for efficient replication of packets across interfaces, which has hard, fixed limits on the number of multicast forwarding entries it may hold. We argue that the limited available multicast state calls for a redefinition of the multicast protocol stack.In this paper, we survey multicast forwarding-state capacity across ISP core routers and enterprise routers to highlight their hardware limits. We then propose to extend existing routing protocols (OSPF and IS-IS) to expose the hardware replication capacities of nodes to the control plane. Building on these exposed capacities, we propose a capacity-aware path-selection algorithm for PIM-SSM based on Shortest Widest Path (SWP), allowing to load-balance multicast joins over paths with remaining multicast hardware entries. Our results show that, by exposing multicast capacities, we can not only improve the join acceptance rate by up to 22\%, but our solution also allows to reach a two times higher join rate without rejecting any join. By increasing the join acceptance rate, more concurrent multicast flows can coexist in networks.},
+  booktitle = {Proceedings of the 2026 Applied Networking Research Workshop},
+  pages = {75–81},
+  numpages = {7},
+  keywords = {multicast, PIM, link-state},
+  location = {Hilton Park, Vienna, Austria},
+  series = {ANRW '26}
+}
 ```
